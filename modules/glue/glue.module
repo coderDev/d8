@@ -1,0 +1,12 @@
+<?php
+
+function foobar_menu() {
+  // The paths given here need to match the ones in foobar.routing.yml exactly.
+  $items['hello-world'] = array(
+    'title' => 'hello-world',
+    'description' => 'This is the demo  page.',
+    // The name of the route from foobar.routing.yml
+    'route_name' => 'hello_world',
+  );
+  return $items;
+}

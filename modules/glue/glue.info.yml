@@ -1,0 +1,5 @@
+name: Glue
+description: A module for demostrate Drupal 8 routing structure
+core: 8.x
+package: BuildAModule
+type: module
